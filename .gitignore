@@ -1,9 +1,9 @@
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
 env/
@@ -11,9 +11,12 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Dataset files
+# Restricted/local dataset files
 data/*
 !data/README.md
+
+# Generated analysis outputs
+outputs/
 
 # Temporary files
 *.tmp
@@ -27,8 +30,11 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Large model/checkpoint files
+# Model/checkpoint files
 *.h5
 *.pt
 *.pth
 *.ckpt
+
+# Archives
+*.zip
